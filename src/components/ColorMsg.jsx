@@ -2,6 +2,7 @@ export const ColorMsg = (props)=>{
     // 上の時点で分割代入してもいい
     // const ColorMsg = ({ color, message }) =>{}
     // わたされたpropsをかくにん
+    // propsの値が変わったら再度レンダリングされる
     console.log(props);
     // object分割代入
     const {color, message} = props;
